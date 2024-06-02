@@ -1,0 +1,6 @@
+l=float(input("Enter Length:"))
+b=float(input("Enter Breadth:"))
+perimeter=(2*(l+b))
+print("#"*45)
+print("\t\tperimeter of Rect={}".format(perimeter))
+print("#"*45)

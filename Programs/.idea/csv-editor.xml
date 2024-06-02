@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="C:\Users\ragha\My Drive (raghavendramorisetty@gmail.com)\Sem3 mtech\NARESHIT\Python_kvrsir\python program files\Programs\Files\5March\Teacher.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\ragha\My Drive (raghavendramorisetty@gmail.com)\Sem3 mtech\NARESHIT\Python_kvrsir\python program files\Programs\Files\5March\employee.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\ragha\My Drive (raghavendramorisetty@gmail.com)\Sem3 mtech\NARESHIT\Python_kvrsir\python program files\Programs\Files\5March\grocery1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\ragha\My Drive (raghavendramorisetty@gmail.com)\Sem3 mtech\NARESHIT\Python_kvrsir\python program files\Programs\Files\5March\student.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
