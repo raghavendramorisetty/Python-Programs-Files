@@ -15,4 +15,4 @@ The order to do is given below:
 11. MultiThreading
 12. Network Programming
 13. Regular Expressions
-14. GeneratorsIteratorsQRcodeANDEmojis
+14. GeneratorsIteratorsQRcode-AND-Emojis
