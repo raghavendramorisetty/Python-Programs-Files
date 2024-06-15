@@ -13,3 +13,5 @@ The order to do is given below:
 9. Decorators
 10. Oops
 11. MultiThreading
+12. Network Programming
+13. Regular Expressions
