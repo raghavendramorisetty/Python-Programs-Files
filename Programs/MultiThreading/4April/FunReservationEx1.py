@@ -2,7 +2,6 @@
 # FunReservationEx1.py
 import threading, time
 
-
 def seatreserve(seats):
     K.acquire()
     global nos
@@ -36,8 +35,11 @@ t4 = threading.Thread(target=seatreserve, args=(3,))
 t4.name = "DR"
 t5 = threading.Thread(target=seatreserve, args=(1,))
 t5.name = "GS"
+t6 = threading.Thread(target=seatreserve, args=(1,))
+t6.name = "DS"
 t1.start()
 t2.start()
 t3.start()
 t4.start()
 t5.start()
+t6.start()
