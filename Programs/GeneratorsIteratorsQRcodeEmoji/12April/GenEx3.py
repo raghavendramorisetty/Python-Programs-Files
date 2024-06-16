@@ -9,5 +9,6 @@ def  kvrgen(x):
 
 #Main program
 r=kvrgen(6) # here r is an object of <class, 'generator'>
+#print(r)
 for val in r:
 	print(val)
