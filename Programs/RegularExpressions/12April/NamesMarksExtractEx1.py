@@ -8,6 +8,7 @@ nameslist=re.findall("[A-Z][a-z]+",gd)
 print("-----------------------------------------")
 print("Names\tMarks")
 print("-----------------------------------------")
+# print(zip(nameslist,markslist))
 for names,marks in zip(nameslist,markslist):
 	print("{}\t{}".format(names,marks))
 print("-----------------------------------------")

@@ -2,10 +2,10 @@
 #NamesMailsExtractEx2.py
 import re
 try:
-	with open("E:\\KVR-PYTHON-6PM\\REG EXPR\\NOTES\\mails.info","r") as fp:
+	with open("mails.info","r") as fp:
 		filedata=fp.read()
 		mailslist=re.findall(r"\S+@\S+",filedata)
-		nameslist=re.findall("[A-Z][a-z]+",filedata)
+		nameslist=re.findall("[A-Z][a-z]+",filedata) # Must have capitals and small-letters in the names of mails.info file
 		print("-----------------------------------------")
 		print("Names\tMails")
 		print("-----------------------------------------")
@@ -15,4 +15,3 @@ try:
 	
 except FileNotFoundError:
 	print("File does not exist")
-

@@ -2,12 +2,13 @@
 #MailsExtractEx1.py
 import re
 try:
-	with open("E:\\KVR-PYTHON-6PM\\REG EXPR\\NOTES\\mails.info","r") as fp:
+	with open("mails.info","r") as fp:
 		filedata=fp.read()
 		print("--------------------------------")
 		print("Mails")
 		print("--------------------------------")
 		mailslist=re.findall(r"\S+@\S+",filedata)
+		#print(mailslist)
 		for mail in mailslist:
 			print(mail)
 		print("--------------------------------")
